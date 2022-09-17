@@ -25,13 +25,13 @@ for x in range(1000):
 
     webDriverDetails.time.sleep(2)
 
-    set_username = "Safayet Automate"
+    set_username = "dummy name"
 
-    set_mobile = "01881052953"
+    set_mobile = "dummy number"
 
-    set_email = "safayet_automate@gmail.com"
+    set_email = "dumy email"
 
-    set_feedback = "Safayet_Automate and 01881052953 and safayet_automate@gmail.com"
+    set_feedback = "dummy text"
 
     search_username_input_box = webDriverDetails.driverClass.driver.find_element_by_css_selector("input[name='fullName']")
 
