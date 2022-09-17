@@ -46,9 +46,9 @@ class driverClass:
 
     driver.maximize_window()
 
-#    driver.get("https://prportal.nidw.gov.bd/nid-pub/")
+#    driver.get("dummy webpage")
 
-#    driver.get("http://localhost:8080/nid-pub")
+#    driver.get("dummy webpage")
 
 
 
