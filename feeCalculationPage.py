@@ -3,13 +3,13 @@ import webDriverDetails
 from webDriverDetails import *
 
 class feeCalculationClass:
- #   webDriverDetails.driverClass.driver.get("https://prportal.nidw.gov.bd/nid-pub/fees")
+ #   webDriverDetails.driverClass.driver.get("dummy link")
 
-    webDriverDetails.driverClass.driver.get("http://localhost:8080/nid-pub/fees")
+    webDriverDetails.driverClass.driver.get("dummy link")
 
     time.sleep(2)
 
-    set_nid = "3756747436"
+    set_nid = "dummy nid"
 
     set_nid_input_box = webDriverDetails.driverClass.driver.find_element_by_css_selector("input[name='nid']")
 
