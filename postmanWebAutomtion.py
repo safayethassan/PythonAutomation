@@ -19,9 +19,9 @@ class makePostmanWebAutomate:
 
     time.sleep(5)
 
-    set_username = "safayethassan340"
+    set_username = "dummy"
 
-    set_password = "dagameishere11%"
+    set_password = "dummy%"
 
     set_email_in_input_box = webDriverDetails.driverClass.driver.find_element_by_id("username")
 
